@@ -1,20 +1,60 @@
+/* Section Main */
+
 .hero-img {
-    position: relative;
+    display: block;
     background-size: cover;
     background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/img/background.png");
     background-position: 50% 50%;
     width: 100vw;
-    height: 92vh;
-  }
-  
-  h1 {
-    color: white;
+    height: 93vh;
   }
   
 .header{
-    width: inherit;
-    height: inherit;
+  color: white;
+}
+
+.hero-title{
+  padding-top: 35vh;
+}
+
+/* Section scenery */
+
+img{
+  height: 70vh;
+  width: 70vw;
+}
+
+.slideshow {
+  display: flex;
+  padding: 30px 30px 30px 30px;
+  margin: 30px 30px 30px 30px;
+}
+
+.slideshow-caption {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding-left: 60px;
+}
+
+@media screen and (max-width: 1300px) {
+  .slideshow {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+  .slideshow-caption {
+    margin-top: 10vh;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  img{
+    height: 70vh;
+    width: 100%;
+  }
 }
