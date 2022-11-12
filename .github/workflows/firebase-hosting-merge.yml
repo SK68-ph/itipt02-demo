@@ -9,7 +9,6 @@ name: Deploy to Firebase Hosting on merge
 jobs:
   build_and_deploy:
     runs-on: ubuntu-latest
-    steps:
       strategy:
         matrix:
           node-version: [18.x]
