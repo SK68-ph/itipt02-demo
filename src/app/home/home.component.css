@@ -1,7 +1,12 @@
 /* Section Main */
 
 h2 {
-  font-family: "lato";
+  font-family: "Acme";
+  font-size: 1.3rem;
+}
+
+section{
+  background-color: #E6DDDE;
 }
 
 .hero-img {
