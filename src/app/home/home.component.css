@@ -39,6 +39,14 @@ img{
   padding-left: 60px;
 }
 
+.section-infos{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
 
 @media only screen and (max-width: 500px) {
   .slideshow {
@@ -47,7 +55,7 @@ img{
     align-items: center;
     justify-content: center;
     margin: 0;
-    padding: 0;
+    padding: 4vh 0px 0px 0px;
   }
 
   .slideshow-caption {
@@ -60,6 +68,16 @@ img{
     height: 30vh;
     width: 100%;
   }
+  .section-infos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  iframe{
+    width: 60vw;
+    height: 60vh;
+  }
 }
 
 
@@ -70,7 +88,7 @@ img{
     align-items: center;
     justify-content: center;
     margin: 0;
-    padding: 0;
+    padding: 6vh 0px 0px 0px;
   }
 
   .slideshow-caption {
@@ -82,6 +100,16 @@ img{
     height: 50vh;
     width: 100%;
   }
+  .section-infos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  iframe{
+    width: 60vw;
+    height: 60vh;
+  }
 }
 
 @media only screen and (max-width: 1300px) and (min-width: 700px) {
@@ -91,7 +119,7 @@ img{
     align-items: center;
     justify-content: center;
     margin: 0;
-    padding: 0;
+    padding: 8vh 0px 0px 0px;
   }
   .slideshow-caption {
     margin-top: 10vh;
@@ -101,6 +129,12 @@ img{
   img{
     height: 60vh;
     width: 100%;
+  }
+  .section-infos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 }
 
@@ -113,7 +147,7 @@ img{
     align-items: center;
     justify-content: center;
     margin: 0;
-    padding: 0;
+    padding: 10vh 0px 0px 0px;
   }
   .slideshow-caption {
     margin-top: 10vh;
@@ -124,4 +158,21 @@ img{
     height: 70vh;
     width: 100%;
   }
+  .section-infos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 }
+
+@media only screen and (max-width: 1650px) and (min-width: 1600px) {
+  .section-infos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+/* Section location */
