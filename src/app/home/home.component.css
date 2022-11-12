@@ -1,5 +1,9 @@
 /* Section Main */
 
+h2 {
+  font-family: "lato";
+}
+
 .hero-img {
     display: block;
     background-size: cover;
