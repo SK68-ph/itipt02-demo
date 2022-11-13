@@ -9,6 +9,19 @@ section {
   min-height: 40vh;
 }
 
+.summary-section{
+  background-color: #E6DDDE;
+}
+
+p,h1 {
+  color: white;
+}
+
+.food-section{
+  background-color: #303443;
+}
+
+
 .hero-img {
   display: block;
   background-size: cover;
@@ -53,6 +66,8 @@ section {
   font-size: 1.5em;
 }
 
+
+
 img {
   max-width: 93vw;
   max-height: 85vh;
@@ -60,5 +75,24 @@ img {
 @media only screen and (max-width: 650px) {
   .section-header {
     font-size: 1.2rem;
+  }
+
+  img {
+    max-width: 60vw;
+    max-height: 35vh;
+  }
+
+  .food-header {
+    font-size: 1.6em;
+  }
+  
+  .food-subheader {
+    font-family: "lato";
+    font-size: 1.1em;
+  }
+  
+  .food-section{
+    width: 90vw;
+    margin: 0px 5vw 0px 5vw;
   }
 }
