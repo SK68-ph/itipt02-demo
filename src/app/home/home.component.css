@@ -38,7 +38,7 @@ section{
 /* Section scenery */
 
 img{
-  height: 70vh;
+  height: 80vh;
   width: 70vw;
 }
 
@@ -167,7 +167,7 @@ img{
   }
   img{
     height: 60vh;
-    width: 100%;
+    width: 70vw;
   }
   .section-infos{
     display: flex;
@@ -198,8 +198,8 @@ img{
     padding-right: 20vw;
   }
   img{
-    height: 70vh;
-    width: 100%;
+    max-height: 70vh;
+    width: 70vw;
   }
   .section-infos{
     display: flex;
