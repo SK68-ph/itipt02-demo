@@ -18,7 +18,16 @@ section{
     height: 93vh;
   }
   
+
 .header{
+  font-size: 3.5rem;
+}
+
+.sub-header{
+  font-size: 2.0rem;
+}
+
+.sub-header, .header{
   color: white;
 }
 
