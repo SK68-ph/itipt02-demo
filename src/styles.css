@@ -3,10 +3,6 @@
     font-family: ivymode;
     src: url("/assets/fonts/IvyMode-Regular.otf");
 }
-@font-face {
-    font-family: ivymodeL;
-    src: url("/assets/fonts/IvyMode-Light.otf");
-}
 *{
     font-family: "ivymode", sans-serif;
 }
