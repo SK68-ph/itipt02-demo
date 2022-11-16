@@ -8,7 +8,7 @@
     src: url("/assets/fonts/IvyMode-Light.otf");
 }
 *{
-    font-family: ivymode, sans-serif;
+    font-family: "ivymode", sans-serif;
 }
 body {
     overflow-x: hidden;
