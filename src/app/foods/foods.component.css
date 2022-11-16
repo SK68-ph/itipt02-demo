@@ -1,9 +1,10 @@
 /* Section Main */
 
-h2 {
+h2,section-header {
   font-family: "Acme";
   font-size: 1.3rem;
 }
+
 
 section {
   min-height: 40vh;

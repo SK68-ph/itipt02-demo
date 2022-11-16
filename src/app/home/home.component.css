@@ -60,13 +60,18 @@ img{
 .section-infos{
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 10px;
+  gap: 5vw;
   align-items: center;
   justify-content: center;
 }
 
 .content-infos{
   background-color: #303443;
+}
+
+iframe{
+  width: 45vw;
+  height: 50vh;
 }
 
 @media only screen and (max-width: 500px) {
